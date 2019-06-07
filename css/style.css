@@ -1,0 +1,202 @@
+/* nav ul a, */
+nav .brand-logo {
+  color: #fff;
+  font-size: 20px !important;
+} 
+
+@font-face{
+  font-family: 'Berthy';
+  src: url("css/fonts/Berthy.ttf");
+}
+
+@font-face {
+  font-family: 'Billortte';
+  src: url("css/fonts/Billortte_One_Regular_TFF.ttf");
+}
+
+/* Header section */
+#index-banner .header{
+  margin: 18% auto;
+}
+
+.header h1{
+  font-size: 35px;
+  /* margin-top: 20px; */
+}
+
+.header h5{
+  /* margin-top: -20px; */
+}
+
+/* Profile Section*/
+
+.profile-section h1{
+  font-family: 'Berthy';
+  font-size: 50px;
+} 
+
+.profile-section .para{
+  font-family: 'Billortte';
+  font-size: 20px;
+}
+
+.profile-section h5{
+  font-size: 25px;
+  color: #999999;
+} 
+
+.pp-bg-outer-layer {
+  height: 270px;
+  width: 270px;
+  background-color: #bdc3c7;
+  border-radius: 50%;
+  /* position: absolute; */
+  margin-top: 50px;
+}
+
+.pp-sm-outer-layer {
+  border-radius: 50%;
+  height: 230px;
+  width: 230px;
+  margin: 20px 20px;
+  background-color: #999999;
+  position: absolute;
+}
+
+.pp-xs-outer-layer {
+  border-radius: 50%;
+  height: 190px;
+  width: 190px;
+  margin: 20px 20px;
+  background-color: #bdc3c7;
+}
+
+.pp img{
+  border-radius: 50%;
+  height: 190px;
+  width: 230px !important;
+}
+
+.details-sub-title {
+
+}
+.details-para {
+  padding: 0 20px;
+  /* color: #ecf0f1; */
+}
+
+/* Education Section */
+.education-section h1{
+  font-family: 'Berthy';
+  font-size: 50px;
+} 
+
+.education-section h4{
+  /* font-family: 'Berthy'; */
+  font-size: 12px;
+} 
+/* End of education section */
+
+/* skills Section */
+
+.skills-section {
+  /* background: linear-gradient(#3494e6,#ec6ead); */
+}
+
+
+.skills-section h1{
+  font-family: 'Berthy';
+  font-size: 50px;
+} 
+
+.skills-section h4{
+  font-size: 18px;
+  transition: 1s;
+} 
+
+.skills-group span{
+  font-size: 18px;
+  transition: 1s;
+} 
+
+.skills-group:hover{
+  transition: 1s;
+}
+
+.skills-section .skills-group{
+  background-color: rgb(228, 228, 228);
+  
+}
+
+.skills-section .skills-group:hover{
+  background-color: rgb(228, 228, 228);
+  
+}
+/* End of skills section */
+.projects-section h1{
+  font-family: 'Berthy';
+  font-size: 50px;
+} 
+
+.projects-section .card:hover{
+  color: #000;
+  opacity: 1;
+  transition: 2s;
+}  
+
+.projects-section .card .card-title{
+  font-size: 18px !important;
+  font-weight: 600;
+} 
+/* Projects section */
+
+/* Footer page section */
+.page-footer a{
+  margin: 6px;
+}
+/* end of footer section */
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
